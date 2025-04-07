@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --container-xl: 1140px;
+  --color-gray: #999;
+  --color-primary: #0088CC;
+  --color-dark: #32383e;
+  --color-black: #212529;
+  --shadow-sm: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 2px 4px 0px rgba(0, 0, 0, 0.05);
+  --tracking-sm: -0.5px;
+  --spacing-24p: 24px;
+  --spacing-26p: 26px;
+  --font-Poppins: "Poppins", "sans-serif";
+  --font-Playfair: "Playfair Display ", "serif";
+  --font-Shadows: "Shadows Into Light", "sans-serif";
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  @apply font-Poppins selection:bg-primary selection:text-white
+}
+
+.container 
+{
+
+  @apply w-xl mx-auto px-3 
+}
+
+.navLink
+{
+  @apply hover:text-primary border-b-4 border-b-transparent transition-all duration-150 hover:border-b-primary
+}
+
+.socialIcon
+{
+  @apply  text-sm p-2 rounded-full shadow-sm cursor-pointer transition-all duration-150 hover:text-white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
