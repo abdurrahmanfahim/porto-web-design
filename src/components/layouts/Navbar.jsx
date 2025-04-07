@@ -5,7 +5,7 @@ import { FaXTwitter } from 'react-icons/fa6'
 const Navbar = () => {
   return (
     <>
-      <nav className='w-full py-4 sticky top-0 bg-white z-50 shadow-2xs shadow-2xs '>
+      <nav className='w-full py-4 sticky top-0 bg-white z-50 shadow-2xs  '>
         <div className="container ">
           <div className="flex justify-between">
           <div className="logo">
